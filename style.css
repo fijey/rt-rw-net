@@ -117,9 +117,17 @@
 
 /* utillity */
 
-.tombol {
+.nav-item .tombol {
     text-transform: uppercase;
     border-radius: 40px;
+
+}
+
+.tombollihatselengkapnya {
+    text-transform: uppercase; 
+    float: right;
+    margin:10px;
+
 }
 
 .img100 {
@@ -137,6 +145,11 @@
 .slider{
     background-color: slategrey;
     margin-bottom: 30px;
+}
+
+.slidercaption{
+    position: relative;
+    margin-top: 100px;
 }
 
 
