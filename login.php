@@ -45,7 +45,7 @@ if(isset($_POST['login'])){
 
     <!-- css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="login.css">
     <!-- javascript -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -53,14 +53,27 @@ if(isset($_POST['login'])){
     
 </head>
 <body class="bg-light">
+<!-- jumbotron -->
+<div class="welcome">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="jumbo1">
+            <div class="container">
+            <h1 class="display-4">Selamat datang di <br> Halaman Login</h1>
+            <p class="lead">RT-RW NET Silahkan Isi data untuk menikmati layanan internet kami </p>
+        </div>
+            </div>
+</div>
 
-<div class="container mt-5">
+<!-- akhir jumbotron -->
+
+<div class="container login">
+
     <div class="row">
         <div class="col-md-6">
 
         <p>&larr; <a href="index.php">Home</a>
 
-        <h4>Masuk ke Pesbuk</h4>
+        <h4>Masuk ke Rt-RW NET</h4>
         <p>Belum punya akun? <a href="register.php">Daftar di sini</a></p>
 
         <form action="" method="POST">

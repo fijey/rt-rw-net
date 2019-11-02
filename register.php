@@ -12,6 +12,7 @@ if(isset($_POST['register'])){
     $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
 
 
+
     // menyiapkan query
     $sql = "INSERT INTO users (name, username, email, password) 
             VALUES (:name, :username, :email, :password)";
@@ -58,7 +59,8 @@ if(isset($_POST['register'])){
       <div class="jumbo1">
         <div class="container">
         <h1 class="display-4">Selamat datang di <br> Halaman Register</h1>
-        <p class="lead">RT-RW NET Silahkan Isi data untuk menikmati layanan internet kami </p>
+        <p class="lead">Silahkan Isi data untuk menikmati layanan internet kami <br>
+    atau bisa langsung melalui admin RT-RW NET </p>
       </div>
         </div>
     </div>
