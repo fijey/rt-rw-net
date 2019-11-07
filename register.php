@@ -68,7 +68,7 @@ if(isset($_POST['register'])){
 <div id="middle">
 <div class="container>
     <div class="row justify-content-center">
-        <p>&larr; <a href="index.php">Home</a>
+        <p>&larr; <a href="landing_page.php">Home</a>
         <h4>Register RT-RW NET</h4>
         <p>Sudah punya akun? <a href="login.php">Login di sini</a></p>
 

@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- My CSS  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Viga&display=swap" rel="stylesheet">
+
+    <!-- JavaScript -->
+    <script>
+        $(document).ready(function() {
+         
+          $('.card').hover (
+            function() {
+              $(this).animate({
+                margintop: "-=1%",
+              },200);
+            },
+
+            function() {
+              $(this).animate({
+                margintop: "0%"
+              },200);
+            }
+            
+          );
+        });
+      </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+
+    <title>RT RW NET</title>
+  </head>
+  <body>
+
+
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#"> <img src="logofix.png" width="80px" height="80px"></a>
+          <a class="navbar-brand" href="#">
+            RT-RW NET </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"               aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+              <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="#kelebihan">service</a>
+              <a class="nav-item nav-link " href="#" >About</a>
+              <a class="nav-item nav-link " href="login.php" >Login</a>
+              <a class="nav-item btn btn-primary tombol" href="register.php"><label style="color: white; padding-top: 2px;">Create Account</label></a>
+              
+              
+              
+            </div>
+          </div>
+    </div>
+
+    </nav>
+
+    <!-- akhir navbar -->
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="jumbo1">
+        <div class="container">
+        <h1 class="display-4">Selamat datang di <br> RT-RW NET</h1>
+        <p class="lead">Nikmati internet dengan Speed yang kamu inginkan </p>
+      </div>
+        </div>
+    </div>
+    
+    <!-- Akhir Jumbotron -->
+    
+    <!-- Container -->
+      <div class="container">
+        <!-- Info Panel -->
+        <div class="row justify-content-center">
+          <div class="col -10 info-panel">
+            <div class="row">
+              <div class="col-lg">
+                <img src="images/full-speed.png" class="img100 float-left" alt="employee">
+                <h4>Full Speed</h4>
+                <P>Nikmati Internet dengan Speed yang Stabil</P>
+              </div>
+              <div class="col-lg">
+                <img src="images/package-logo.jpg" class="img100 float-left" alt="Schedule">
+                <a href="table/tabel.html"><h4>Pilih Paket</h4></a>
+                     <P>Pilih Paketmu Sesuai dengan kebutuhan </P>
+              </div>
+                <div class="col-lg">
+                  <img src="images/bonus.png" class="img100 float-left" alt="reservasi">
+                  <h4>Bonus Setiap hari</h4>
+                  <P>Beli paketnya dan dapatkan bonusnya</P>
+                </div>
+            </div>
+          </div>
+        </div>
+          <!-- akhir info -->
+
+          <!-- pelayanan -->
+          <div class="list-paket">
+          <h2>Paket Ramah</h2>
+          <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="images/10mbps.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Paket Ramah 1</h5>
+                <p class="card-text">Paket Ini memberikan anda benefit : 
+                  <ul>
+                    <li>Speed 10/mbps</li>
+                    <li>Durasi 1jam</li>
+                    <li>Sisa waktu tidak dapat disimpan</li>
+                  </ul>
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted"><a class="nav-item btn btn-primary tombol"><label style="color: white; padding-top: 2px;">Rp.10.000</label></a></small>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="images/15mbps.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Paket Ramah 2</h5>
+                <p class="card-text">Paket Ini memberikan anda benefit
+                  <ul>
+                    <li>Speed 15/mbps</li>
+                    <li>Durasi 1jam</li>
+                    <li>Sisa waktu tidak dapat disimpan</li>
+                  </ul>
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted"><a class="nav-item btn btn-primary tombol"><label style="color: white; padding-top: 2px;">Rp.15.000</label></a></small>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="images/20mbps.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Paket Ramah 3</h5>
+                <p class="card-text">Paket Ini memberikan anda benefit </p>
+                <ul>
+                  <li>Speed 20/mbps</li>
+                  <li>Durasi 1jam</li>
+                  <li>Sisa waktu tidak dapat disimpan</li>
+                </ul>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted"><a class="nav-item btn btn-primary tombol"><label style="color: white; padding-top: 2px;">Rp.20.000</label></a></small>
+              </div>
+            </div>
+          </div>
+            <a class="nav-item btn btn-primary tombollihatselengkapnya"><label style="color: white; padding-top: 2px;">Lihat Selengkapnya...</label></a>
+          </div>
+        <!-- akhir pelayanan -->
+
+        <!-- paket muter -->
+
+      
+
+        <!-- akhir paket muer -->
+        
+
+
+        <!-- imageslider -->
+        <div class="slidercaption">
+            <h2>Info Terbaru</h2>
+        </div>
+        <center>
+        
+        <div class="slider">
+            <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+                    <!-- Carousel indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Wrapper for carousel items -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/header-background.jpg" alt="First Slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/rs_ars_room2.jpg" alt="Second Slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/rs_ars_room1.jpg" alt="Third Slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Carousel controls -->
+                    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+          </center>
+        <!-- akhir imageslider -->
+
+        <h2>About Us</h2>
+      </div>
+    <!-- akhir container -->
+
+     <!-- footer -->
+     <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+        <div class="container text-center">
+          <small>Copyright &copy; Your Website</small>
+        </div>
+      </footer>
+  
+    <!-- akhir footer -->
+    
+  </body>
+</html>

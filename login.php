@@ -71,7 +71,7 @@ if(isset($_POST['login'])){
     <div class="row">
         <div class="col-md-6">
 
-        <p>&larr; <a href="index.php">Home</a>
+        <p>&larr; <a href="landing_page.php">Home</a>
 
         <h4>Masuk ke Rt-RW NET</h4>
         <p>Belum punya akun? <a href="register.php">Daftar di sini</a></p>
