@@ -1,3 +1,15 @@
+<style>
+
+#jam {
+  color:white;
+}
+
+
+</style>
+
+
+
+
 <!-- Sidebar -->
 <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
@@ -73,6 +85,8 @@ $subMenu = $this->db->query($querysubmenu)->result_array();
     <i class="fas fa-fw fa-sign-out-alt"></i>
     <span>Logout</span></a>
 </li>
+
+
  
 
 
@@ -80,6 +94,35 @@ $subMenu = $this->db->query($querysubmenu)->result_array();
 
 <!-- Divider -->
 <hr class="sidebar-divider d-none d-md-block">
+
+<center>
+<div id="jam">
+        <script language="javascript">
+        function jam(){
+        var waktu = new Date();
+        var jam = waktu.getHours();
+        var menit = waktu.getMinutes();
+        var detik = waktu.getSeconds();
+      
+            if (jam < 10){
+            jam = "0" + jam;
+            }
+            if (menit < 10){
+            menit = "0" + menit;
+            }
+            if (detik < 10){
+            detik = "0" + detik;
+            }
+            var jam_div = document.getElementById('jam');
+            jam_div.innerHTML = jam + ":" + menit + ":" + detik;
+            setTimeout("jam()", 1000);
+            }
+            jam();
+      </script>
+      </div>
+
+
+      <center>
 
 <!-- Sidebar Toggler (Sidebar) -->
 <div class="text-center d-none d-md-inline">
